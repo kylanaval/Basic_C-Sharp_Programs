@@ -12,8 +12,8 @@ namespace Methods_Objects_Assignment
             // The Employee inherits the FirstName and LastName properties from Person.
             Employee employee = new Employee
             {
-                FirstName = "Kyla",
-                LastName = "Cartalla",
+                FirstName = "Sample",
+                LastName = "Student",
                 Id = 1
             };
 
