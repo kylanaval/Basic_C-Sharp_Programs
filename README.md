@@ -1,27 +1,22 @@
-# Welcome to Markdown Editor
+# Basic C# Programs
 
-This is a **powerful** markdown editor with *live preview* functionality.
+These are small projects I made using C# and .NET Framework
 
-## Features
+## Final Projects:
 
-- Real-time preview as you type
-- Syntax highlighting for code blocks
-- Toolbar with common formatting options
-- Export to HTML or download as file
-- Upload markdown files or drag & drop
-- Responsive design for all devices
+- Car Insurance
+- Student Database
 
-### Code Example
+### Car Insurance
 
-```javascript
-function greet(name) {
-    console.log(`Hello, ${name}!`);
-    return true;
-}
-
-greet("Markdown User");
+``` 
+This is a simple ASP.NET Core (.NET 10) Razor-based car insurance app that manages insuree records. Key points:
+• Insurees model (CarInsurance.Models.Insurees) stores personal, vehicle and quote data.
+• EF Core DbContext (CarInsurance.Data.CarInsuranceContext) uses SQL Server (connection strings in appsettings.json) and migrations are present.
+• MVC-style controller InsureesController with full CRUD and Razor views (Index, Details, Create, Edit, Delete, Admin) for managing records.
+• Run the app and go to /Insurees to list, create, edit, or delete insurees.
 ```
-
-### Try it out!
-
-Start editing this text or clear it to start fresh. Your changes appear instantly in the preview panel!
+### Student Database
+```
+The StudentDatabase project is a .NET 10 C# solution that provides a simple student-record example for learning core C# concepts. It includes a console entry point (Program.cs), student model(s), and basic operations for creating and listing student records (a lightweight CRUD/demo app).
+```
