@@ -1,0 +1,18 @@
+﻿@page
+@model ServerTimeApp.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Server Time";
+}
+
+<div class="text-center">
+    <h1>Final Project - Challenge Assignment</h1>
+
+    <h2>Welcome to Kyla's Server Time Application!</h2>
+
+    <p>The actual server date and time is:</p>
+
+    <h3>@Model.ServerTime.ToString("MMMM dd, yyyy hh:mm:ss tt")</h3>
+
+    <p>Refresh the page to see the updated server time.</p>
+</div>
